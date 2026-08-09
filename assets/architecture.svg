@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#060b12"/>
+  <text x="90" y="100" fill="#5ce1e6" font-family="monospace" font-size="24" font-weight="700" letter-spacing="5">LANTERNLINK / SIGNAL PATH</text>
+  <text x="90" y="180" fill="#f2f7f8" font-family="Arial, sans-serif" font-size="68" font-weight="800">A connection a person can see.</text>
+  <g transform="translate(100 290)">
+    <rect width="410" height="330" rx="28" fill="#0d1722" stroke="#203344" stroke-width="3"/>
+    <text x="42" y="64" fill="#64f2a6" font-family="monospace" font-size="21" font-weight="700">01 / OWNED SENDER</text>
+    <text x="42" y="135" fill="#f2f7f8" font-family="Arial" font-size="44" font-weight="800">Status button</text>
+    <text x="42" y="195" fill="#91a6b4" font-family="Arial" font-size="25">Bounded message</text>
+    <text x="42" y="235" fill="#91a6b4" font-family="Arial" font-size="25">timestamp + nonce</text>
+    <text x="42" y="275" fill="#91a6b4" font-family="Arial" font-size="25">HMAC-SHA256</text>
+  </g>
+  <g transform="translate(595 290)">
+    <rect width="410" height="330" rx="28" fill="#0d1722" stroke="#ffc857" stroke-width="3"/>
+    <text x="42" y="64" fill="#ffc857" font-family="monospace" font-size="21" font-weight="700">02 / LOCAL CONNECTION</text>
+    <text x="42" y="135" fill="#f2f7f8" font-family="Arial" font-size="44" font-weight="800">LAN tunnel</text>
+    <text x="42" y="195" fill="#91a6b4" font-family="Arial" font-size="25">Encrypted SSH path</text>
+    <text x="42" y="235" fill="#91a6b4" font-family="Arial" font-size="25">No third-party relay</text>
+    <text x="42" y="275" fill="#91a6b4" font-family="Arial" font-size="25">No message database</text>
+  </g>
+  <g transform="translate(1090 290)">
+    <rect width="410" height="330" rx="28" fill="#0d1722" stroke="#5ce1e6" stroke-width="3"/>
+    <text x="42" y="64" fill="#5ce1e6" font-family="monospace" font-size="21" font-weight="700">03 / SIGNAL LANTERN</text>
+    <text x="42" y="135" fill="#f2f7f8" font-family="Arial" font-size="44" font-weight="800">Visible output</text>
+    <text x="42" y="195" fill="#91a6b4" font-family="Arial" font-size="25">Verify signature</text>
+    <text x="42" y="235" fill="#91a6b4" font-family="Arial" font-size="25">Reject stale/replay</text>
+    <text x="42" y="275" fill="#91a6b4" font-family="Arial" font-size="25">Text + Morse timing</text>
+  </g>
+  <path d="M510 455 H595" stroke="#64f2a6" stroke-width="8"/>
+  <path d="M565 430 L595 455 L565 480" fill="none" stroke="#64f2a6" stroke-width="8"/>
+  <path d="M1005 455 H1090" stroke="#5ce1e6" stroke-width="8"/>
+  <path d="M1060 430 L1090 455 L1060 480" fill="none" stroke="#5ce1e6" stroke-width="8"/>
+  <text x="100" y="755" fill="#f2f7f8" font-family="Arial" font-size="30" font-weight="700">Four words. One fresh signed packet. One visible message.</text>
+  <text x="100" y="810" fill="#91a6b4" font-family="Arial" font-size="23">Educational local signaling - not an emergency or guaranteed-delivery system.</text>
+</svg>

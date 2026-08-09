@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LanternLink</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p class="eyebrow">LANTERNLINK / LOCAL SIGNAL NODE</p>
+          <h1>Make the connection <em>visible.</em></h1>
+        </div>
+        <div class="online"><span></span> RECEIVER ONLINE</div>
+      </header>
+
+      <section class="grid">
+        <article class="beacon-panel">
+          <div class="beacon" id="beacon" aria-label="Signal lantern">
+            <div class="halo"></div>
+            <div class="lamp"><div class="core"></div></div>
+            <div class="base"></div>
+          </div>
+          <div class="morse" id="morse">.-- .- .. - .. -. --.</div>
+          <p class="caption">LIGHT OUTPUT / MORSE-TIMED</p>
+        </article>
+
+        <article class="signal-panel">
+          <p class="eyebrow">LATEST VERIFIED SIGNAL</p>
+          <div class="message" id="message">WAITING FOR SIGNAL</div>
+          <div class="rule"></div>
+          <dl>
+            <div><dt>FROM</dt><dd id="sender">NONE</dd></div>
+            <div><dt>SEQUENCE</dt><dd id="sequence">0000</dd></div>
+            <div><dt>RECEIVED UTC</dt><dd id="received">--</dd></div>
+            <div><dt>INTEGRITY</dt><dd class="good" id="integrity">NO SIGNAL</dd></div>
+          </dl>
+        </article>
+      </section>
+
+      <footer>
+        <div><strong>NO CLOUD</strong><span>local network only</span></div>
+        <div><strong>NO MESSAGE LOG</strong><span>latest signal in memory</span></div>
+        <div><strong>HMAC-SHA256</strong><span>signed + replay checked</span></div>
+        <div><strong>BOUNDED WORDS</strong><span>no accidental private text</span></div>
+      </footer>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
+

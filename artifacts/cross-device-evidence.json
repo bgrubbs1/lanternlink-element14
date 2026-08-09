@@ -1,0 +1,14 @@
+{
+  "schema": "lanternlink-evidence-v1",
+  "evidence_type": "real_cross_device_signal",
+  "tested_at_utc": "2026-08-09T06:25:40Z",
+  "route": "owned macOS sender -> temporary encrypted SSH reverse tunnel -> owned Windows loopback receiver",
+  "sender": "HARBOR-1",
+  "message": "READY",
+  "sequence": 1,
+  "integrity": "SIGNED + FRESH + UNIQUE",
+  "morse": ".-. . .- -.. -.--",
+  "source_sha256": "4cd4620b3f943eb87c7b32459bdc4e2c991269bf1b5fe9de7f24873253515e3f",
+  "automated_tests": {"passed": 8, "total": 8},
+  "privacy": "sanitized; no account, address, phone, email, private IP, hostname, credential, secret, work data, or unrelated system capture"
+}

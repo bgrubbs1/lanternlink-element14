@@ -1,0 +1,21 @@
+{
+  "name": "lanternlink-functional-video",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "4.0.507",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.507"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts LanternLinkDemo out/lanternlink-functional-demo-silent.mp4 --codec h264 --crf 17"
+  }
+}

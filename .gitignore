@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+*.secret
+video/node_modules/
+video/out/
+video/review/
+ELEMENT14_HANDOFF.md
+artifacts/lanternlink-live-full.jpg
