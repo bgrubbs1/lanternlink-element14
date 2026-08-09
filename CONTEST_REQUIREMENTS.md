@@ -37,5 +37,5 @@ Verified from the official Element14 Community page on 2026-08-09.
 - [x] original architecture diagram and BOM;
 - [x] privacy/IP audit and automated tests;
 - [x] genuine sanitized functional video;
-- [ ] public source archive/repository link;
+- [x] public source archive/repository link;
 - [ ] entrant account/legal review and final publication.

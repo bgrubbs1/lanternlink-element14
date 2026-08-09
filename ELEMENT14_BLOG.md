@@ -8,6 +8,10 @@ visible. LanternLink turns one small authenticated network packet into a text
 status and a Morse-timed signal lantern, without a cloud account or message
 history.
 
+**Functional video:** https://youtu.be/4I7CQW-IZXQ
+
+**Public source:** https://github.com/bgrubbs1/lanternlink-element14
+
 The result is a complete two-computer signaling system built with Python's
 standard library. One owned computer sends one of four deliberately bounded
 messages. A second owned computer verifies the packet and lights the browser
@@ -130,6 +134,8 @@ system that I actually tested.
 
 ## Source and materials
 
+- public repository: https://github.com/bgrubbs1/lanternlink-element14;
+- functional video: https://youtu.be/4I7CQW-IZXQ;
 - source: `lanternlink.py` and `web/`;
 - build and usage: `README.md`;
 - bill of materials: `BOM.md`;

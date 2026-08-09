@@ -34,3 +34,14 @@ from that live receiver process after the Mac-to-Windows delivery.
 
 This is a functional educational signaling project. It is not an emergency,
 life-safety, security, or guaranteed-delivery system.
+
+## Public video
+
+https://youtu.be/4I7CQW-IZXQ
+
+- published publicly on 2026-08-09;
+- 60.05 seconds, 1920x1080, H.264, 30 fps;
+- visually reviewed at six timeline points, with corrected architecture and
+  full-frame live-evidence scenes;
+- caption-driven; decoded audio is complete digital silence;
+- YouTube copyright check completed with no issues found.

@@ -10,6 +10,9 @@ The project is being built for Element14 Project14 **Make a Connection**. It
 is intended to make a network connection visible and understandable rather
 than hiding it inside a notification service.
 
+- Functional video: https://youtu.be/4I7CQW-IZXQ
+- Public source: https://github.com/bgrubbs1/lanternlink-element14
+
 ## Messages
 
 - `CHECK_IN` - request a status check;
@@ -85,6 +88,10 @@ The receiver accepted sequence 1 as `SIGNED + FRESH + UNIQUE`. The source file
 used on both devices had the same SHA-256 hash, and all eight automated tests
 passed. See `EVIDENCE.md`, the sanitized JSON record, and the live receiver
 screenshots in `artifacts/`.
+
+The 60-second public video was visually reviewed across all six scenes. It is
+1920x1080 H.264 at 30 fps, is caption-driven, and has a digitally silent audio
+track. YouTube's upload check reported no copyright issues.
 
 The package does not include a home address, phone/email, private IP,
 credential, network inventory, employer/customer material, neighborhood RF
